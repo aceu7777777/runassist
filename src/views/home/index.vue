@@ -1,12 +1,15 @@
 <template>
 <div>
-    我是主页
+    <HomeMyOrder/>
 </div>
 </template>
 
 <script>
+import HomeMyOrder from '@/views/home/components/home-myorder.vue';
 export default {
-
+components:{
+    HomeMyOrder
+}
 }
 </script>
 
